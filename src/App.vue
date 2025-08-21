@@ -17,7 +17,9 @@ const toggleMobileMenu = () => {
         <nav class="navbar">
           <!-- Logo -->
           <div class="navbar-brand">
-            <h2 class="brand-title">Söhbətgah</h2>
+            <a href="#home" class="brand-link" aria-label="Söhbətgah">
+              <img src="/SohbetgahLogoBlack.png" alt="Söhbətgah" class="brand-logo" />
+            </a>
           </div>
 
           <!-- Desktop Navigation -->
@@ -1028,22 +1030,40 @@ const toggleMobileMenu = () => {
 }
 
 .navbar {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
   padding: 1rem 0;
   min-height: 70px;
 }
 
-.navbar-brand .brand-title {
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--primary-color);
-  margin: 0;
+.navbar-brand {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-logo {
+  height: 22px;
+  width: auto;
+  display: block;
 }
 
 .desktop-nav {
   display: none;
+}
+
+.navbar-nav.desktop-nav {
+  justify-self: center;
+}
+
+.navbar-cta.desktop-nav {
+  justify-self: end;
 }
 
 .navbar-nav {
@@ -1093,6 +1113,8 @@ const toggleMobileMenu = () => {
   border: none;
   cursor: pointer;
   padding: 0;
+  justify-self: end;
+  grid-column: 3;
 }
 
 .mobile-menu-btn span {
@@ -1381,7 +1403,7 @@ const toggleMobileMenu = () => {
   width: 160px;
   height: 160px;
   border-radius: 1rem;
-  display: flex;
+    display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
