@@ -1,19 +1,23 @@
-/* Modern Minimalist Color Palette for Söhbətgah */
+/* Söhbətgah Brand Color Palette */
 :root {
-  --primary-color: #2563eb;        /* Modern blue */
-  --primary-light: #3b82f6;       /* Lighter blue */
-  --primary-dark: #1d4ed8;        /* Darker blue */
+  --primary-color: #93ba3e;        /* Brand green - primary actions */
+  --primary-light: #a6c75a;       /* Lighter green for hover states */
+  --primary-dark: #7ea332;        /* Darker green for active states */
   
-  --text-primary: #1f2937;        /* Dark gray for main text */
-  --text-secondary: #6b7280;      /* Medium gray for secondary text */
-  --text-light: #9ca3af;          /* Light gray for subtle text */
+  --secondary-color: #64a8dc;      /* Brand blue - secondary accents */
+  --secondary-light: #7db5e1;     /* Lighter blue */
+  --secondary-dark: #5295c7;      /* Darker blue */
+  
+  --text-primary: #333333;        /* Brand dark gray for main text */
+  --text-secondary: #555555;      /* Medium gray for secondary text */
+  --text-light: #777777;          /* Light gray for subtle text */
   
   --background-primary: #ffffff;   /* Pure white background */
-  --background-secondary: #f9fafb; /* Very light gray */
-  --background-accent: #f3f4f6;    /* Light gray for cards */
+  --background-secondary: #f4f0ed; /* Brand cream background */
+  --background-accent: #f8f5f2;    /* Slightly darker cream for cards */
   
-  --border-color: #e5e7eb;        /* Light border */
-  --border-hover: #d1d5db;        /* Darker border on hover */
+  --border-color: #e8e5e2;        /* Light border derived from cream */
+  --border-hover: #d8d5d2;        /* Darker border on hover */
   
   --shadow-light: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);

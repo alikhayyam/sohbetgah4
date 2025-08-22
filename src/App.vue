@@ -70,7 +70,7 @@ const toggleMobileMenu = () => {
               <span class="hero-highlight">Xoş Gəlmisiniz</span>
             </h1>
             <p class="hero-description">
-              Ən maraqlı söhbətlər, ən yeni mövzular və ən faydalı məlumatlar ilə birlikdə. 
+              Tural və Əli hər həftə fərqli bir mövzu ətrafında qonaqları ilə fikir alış-verişi edir və təzadlı baxış bucaqları bu söhbətləri daha da dadlandırır.
               Hər həftə yeni epizodlarla sizinləyik.
             </p>
             <div class="hero-buttons">
@@ -80,25 +80,24 @@ const toggleMobileMenu = () => {
           </div>
           <div class="hero-image">
             <div class="podcast-visual">
-              <!-- Podcast visual placeholder -->
-              <div class="podcast-icon">
-                🎙️
-              </div>
+              <!-- Söhbətgah Landing Photo -->
+              <img src="/SohbetgahLandingPhoto.png" alt="Söhbətgah Podcast" class="hero-photo" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Featured Episodes Section - Z Layout Top Horizontal -->
+    <!-- Featured Episodes Section - Son 3 Epizod -->
     <section class="featured-episodes">
       <div class="container">
+        <h2 class="section-title recent-episodes-title">Son 3 epizodumuz</h2>
         <div class="featured-grid">
-          <!-- Featured Episode 1 (Left) -->
+          <!-- Episode 1 -->
           <div class="featured-card featured-primary">
             <div class="featured-content">
               <div class="episode-meta">
-                <span class="host-name">Azər Bülbül</span>
+                <span class="host-name">Tural</span>
                 <span class="duration">42 dəq</span>
               </div>
               <h3 class="episode-title">Texnologiya və Gələcək</h3>
@@ -115,11 +114,11 @@ const toggleMobileMenu = () => {
             </div>
           </div>
 
-          <!-- Featured Episode 2 (Right) -->
+          <!-- Episode 2 -->
           <div class="featured-card featured-secondary">
             <div class="featured-content">
               <div class="episode-meta">
-                <span class="host-name">Leyla Məmmədova</span>
+                <span class="host-name">Əli</span>
                 <span class="duration">38 dəq</span>
               </div>
               <h3 class="episode-title">Yaradıcılıq və İlham</h3>
@@ -132,6 +131,27 @@ const toggleMobileMenu = () => {
             <div class="featured-visual">
               <div class="podcast-artwork creative-theme">
                 <div class="artwork-icon">🎨</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Episode 3 -->
+          <div class="featured-card featured-tertiary">
+            <div class="featured-content">
+              <div class="episode-meta">
+                <span class="host-name">Tural & Əli</span>
+                <span class="duration">45 dəq</span>
+              </div>
+              <h3 class="episode-title">Biznes və Startaplar</h3>
+              <p class="episode-description">Azərbaycanda startap mədəniyyəti və biznes inkişafı</p>
+              <button class="play-btn tertiary">
+                <span class="play-icon">▶</span>
+                İndi Dinlə
+              </button>
+            </div>
+            <div class="featured-visual">
+              <div class="podcast-artwork business-theme">
+                <div class="artwork-icon">💼</div>
               </div>
             </div>
           </div>
@@ -666,6 +686,132 @@ const toggleMobileMenu = () => {
       </div>
     </section>
 
+    <!-- Mentorship Section -->
+    <section class="mentorship-section">
+      <div class="container">
+        <div class="mentorship-header">
+          <h2 class="section-title">Mentorunuz ola bilərik</h2>
+          <p class="mentorship-subtitle">
+            Peşəkar inkişafınız üçün fərdi mentorluq xidmətlərimizlə yanınızdayıq
+          </p>
+        </div>
+        
+        <div class="mentorship-grid">
+          <!-- Mentor 1 - Tural -->
+          <div class="mentor-card">
+            <div class="mentor-header">
+              <div class="mentor-avatar">
+                <div class="avatar-circle mentor-1">
+                  <span class="mentor-initials">T</span>
+                </div>
+                <div class="mentor-status">
+                  <span class="status-indicator active"></span>
+                  <span class="status-text">Aktiv</span>
+                </div>
+              </div>
+              <div class="mentor-info">
+                <h3 class="mentor-name">Tural</h3>
+                <p class="mentor-role">Texnologiya və Biznes Mentoru</p>
+              </div>
+            </div>
+            
+            <div class="mentor-content">
+              <p class="mentor-description">
+                10+ il texnologiya və startup sahəsində təcrübə. AI, biznes strategiyaları və 
+                texnoloji innovasiyalar üzrə mentorluq.
+              </p>
+              
+              <div class="mentor-specialties">
+                <h4>İxtisas sahələri:</h4>
+                <div class="specialty-tags">
+                  <span class="specialty-tag">AI & ML</span>
+                  <span class="specialty-tag">Startup</span>
+                  <span class="specialty-tag">Biznes strategiya</span>
+                  <span class="specialty-tag">Texnologiya</span>
+                </div>
+              </div>
+              
+              <div class="mentor-stats">
+                <div class="stat-item">
+                  <span class="stat-number">50+</span>
+                  <span class="stat-label">Mentee</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label">İl təcrübə</span>
+                </div>
+              </div>
+              
+              <a href="#contact-tural" class="mentor-btn primary">
+                <span class="btn-icon">💬</span>
+                Mentorluq üçün əlaqə
+              </a>
+            </div>
+          </div>
+
+          <!-- Mentor 2 - Əli -->
+          <div class="mentor-card">
+            <div class="mentor-header">
+              <div class="mentor-avatar">
+                <div class="avatar-circle mentor-2">
+                  <span class="mentor-initials">Ə</span>
+                </div>
+                <div class="mentor-status">
+                  <span class="status-indicator active"></span>
+                  <span class="status-text">Aktiv</span>
+                </div>
+              </div>
+              <div class="mentor-info">
+                <h3 class="mentor-name">Əli</h3>
+                <p class="mentor-role">Yaradıcılıq və Məzmun Mentoru</p>
+              </div>
+            </div>
+            
+            <div class="mentor-content">
+              <p class="mentor-description">
+                Yaradıcı sənayedə 8+ il təcrübə. Məzmun yaradıcılığı, brend quruculuğu və 
+                rəqəmsal marketinq üzrə mentorluq.
+              </p>
+              
+              <div class="mentor-specialties">
+                <h4>İxtisas sahələri:</h4>
+                <div class="specialty-tags">
+                  <span class="specialty-tag">Məzmun yaradıcılığı</span>
+                  <span class="specialty-tag">Brend quruculuğu</span>
+                  <span class="specialty-tag">Rəqəmsal marketinq</span>
+                  <span class="specialty-tag">Yaradıcılıq</span>
+                </div>
+              </div>
+              
+              <div class="mentor-stats">
+                <div class="stat-item">
+                  <span class="stat-number">40+</span>
+                  <span class="stat-label">Mentee</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">İl təcrübə</span>
+                </div>
+              </div>
+              
+              <a href="#contact-ali" class="mentor-btn secondary">
+                <span class="btn-icon">🎨</span>
+                Mentorluq üçün əlaqə
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mentorship-cta">
+          <p>Hər iki mentordan da faydalanmaq istəyirsiniz?</p>
+          <a href="#contact-both" class="btn btn-primary">
+            <span class="btn-icon">🤝</span>
+            Kombine mentorluq
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- Söhbətgah Live Section -->
     <section class="live-section">
       <div class="container">
@@ -1183,7 +1329,7 @@ const toggleMobileMenu = () => {
 /* Hero Section */
 .hero {
   padding-top: 140px;
-  padding-bottom: var(--section-gap);
+  padding-bottom: 20px;
   background: linear-gradient(135deg, var(--background-primary) 0%, var(--background-secondary) 100%);
 }
 
@@ -1227,12 +1373,35 @@ const toggleMobileMenu = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   background: var(--background-accent);
-  border-radius: 50%;
+  border-radius: 1.5rem;
   margin: 0 auto;
   box-shadow: var(--shadow-large);
+  overflow: hidden;
+  border: 4px solid white;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.15)) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.podcast-visual:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.podcast-visual:hover .hero-photo {
+  transform: scale(1.05);
+  filter: drop-shadow(0 12px 32px rgba(0, 0, 0, 0.2)) drop-shadow(0 6px 12px rgba(0, 0, 0, 0.15));
 }
 
 .podcast-icon {
@@ -1274,8 +1443,10 @@ const toggleMobileMenu = () => {
   }
   
   .podcast-visual {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+    border-radius: 2rem;
+    border: 6px solid white;
   }
   
   .podcast-icon {
@@ -1283,18 +1454,24 @@ const toggleMobileMenu = () => {
   }
   
   .podcast-artwork {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
   
   .artwork-icon {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
+  }
+  
+  .featured-card {
+    gap: 1.25rem;
+    padding: 1.75rem;
   }
 }
 
 @media (min-width: 1024px) {
   .hero {
     padding-top: 120px;
+    padding-bottom: 30px;
   }
   
   .hero-title {
@@ -1304,12 +1481,26 @@ const toggleMobileMenu = () => {
   .hero-highlight {
     display: inline;
   }
+  
+  .podcast-visual {
+    width: 400px;
+    height: 400px;
+    border-radius: 2.5rem;
+  }
 }
 
-/* Featured Episodes Section - Z Layout Top Horizontal */
+/* Featured Episodes Section - Son 3 Epizod */
 .featured-episodes {
-  padding: var(--section-gap) 0;
+  padding: 30px 0 calc(var(--section-gap) / 3 * 1.25);
   background: var(--background-secondary);
+}
+
+.recent-episodes-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
 }
 
 .featured-grid {
@@ -1321,8 +1512,8 @@ const toggleMobileMenu = () => {
 .featured-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   transition: all 0.3s ease;
   position: relative;
@@ -1330,13 +1521,18 @@ const toggleMobileMenu = () => {
 }
 
 .featured-primary {
-  background: linear-gradient(135deg, #fef3c7 0%, #f59e0b 100%);
-  color: #92400e;
+  background: linear-gradient(135deg, var(--background-secondary) 0%, var(--primary-color) 100%);
+  color: var(--primary-dark);
 }
 
 .featured-secondary {
-  background: linear-gradient(135deg, #fed7d7 0%, #f56565 100%);
-  color: #c53030;
+  background: linear-gradient(135deg, var(--background-accent) 0%, var(--secondary-color) 100%);
+  color: var(--secondary-dark);
+}
+
+.featured-tertiary {
+  background: linear-gradient(135deg, var(--background-secondary) 0%, var(--text-primary) 100%);
+  color: white;
 }
 
 .featured-card:hover {
@@ -1346,9 +1542,9 @@ const toggleMobileMenu = () => {
 
 .episode-meta {
     display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  font-size: var(--font-size-sm);
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: var(--font-size-xs);
   font-weight: var(--font-weight-medium);
 }
 
@@ -1361,27 +1557,30 @@ const toggleMobileMenu = () => {
 }
 
 .episode-title {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-bold);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   line-height: var(--line-height-tight);
 }
 
 .episode-description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   opacity: 0.8;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
 }
 
 .play-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
   background: rgba(0, 0, 0, 0.2);
   color: currentColor;
   border: none;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -1399,6 +1598,15 @@ const toggleMobileMenu = () => {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.play-btn.tertiary {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.play-btn.tertiary:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .podcast-artwork {
   width: 160px;
   height: 160px;
@@ -1411,11 +1619,11 @@ const toggleMobileMenu = () => {
 }
 
 .tech-theme {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
 }
 
 .creative-theme {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
 }
 
 .artwork-icon {
@@ -1424,7 +1632,7 @@ const toggleMobileMenu = () => {
 
 /* About Section - Z Layout Diagonal Start */
 .about-section {
-  padding: var(--section-gap) 0;
+  padding: calc(var(--section-gap) / 3 * 1.25) 0 var(--section-gap);
   background: var(--background-primary);
 }
 
@@ -1494,7 +1702,7 @@ const toggleMobileMenu = () => {
 .sponsor-banner {
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
   border-radius: 1rem;
   padding: 2rem;
   position: relative;
@@ -1558,7 +1766,7 @@ const toggleMobileMenu = () => {
 .logo-text {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   letter-spacing: 0.5px;
 }
 
@@ -1596,7 +1804,7 @@ const toggleMobileMenu = () => {
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   background: white;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
   border-radius: 2rem;
   font-weight: var(--font-weight-semibold);
@@ -1607,7 +1815,7 @@ const toggleMobileMenu = () => {
 
 .sponsor-btn:hover {
   background: #f8f9fa;
-  color: var(--primary-dark);
+  color: var(--secondary-dark);
   transform: translateX(2px);
 }
 
@@ -1776,15 +1984,15 @@ const toggleMobileMenu = () => {
 }
 
 .business-theme {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 100%);
 }
 
 .science-theme {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
 }
 
 .culture-theme {
-  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-color) 100%);
 }
 
 .episode-play-btn {
@@ -1855,7 +2063,7 @@ const toggleMobileMenu = () => {
 /* Subscribe Section */
 .subscribe-section {
   padding: var(--section-gap) 0;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: white;
   text-align: center;
 }
@@ -1917,27 +2125,27 @@ const toggleMobileMenu = () => {
 
 /* Sponsor logo themes - colorful on hover */
 .tech-logo {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
 }
 
 .media-logo {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
 }
 
 .education-logo {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary-color) 100%);
 }
 
 .finance-logo {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
 }
 
 .creative-logo {
-  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 .health-logo {
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  background: linear-gradient(135deg, var(--background-secondary) 0%, var(--primary-light) 100%);
 }
 
 /* Hover effect - remove grayscale and show colors */
@@ -2025,7 +2233,7 @@ const toggleMobileMenu = () => {
 }
 
 .avatar-placeholder.host-2 {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-light) 100%);
 }
 
 .avatar-initials {
@@ -2254,11 +2462,11 @@ const toggleMobileMenu = () => {
 }
 
 .patreon-bg {
-  background: linear-gradient(135deg, #ff424d 0%, #ff6b35 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
 }
 
 .sponsor-bg {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
 }
 
 .support-card:hover .icon-circle {
@@ -2326,14 +2534,14 @@ const toggleMobileMenu = () => {
 }
 
 .patreon-btn {
-  background: linear-gradient(135deg, #ff424d 0%, #ff6b35 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
   color: white;
-  box-shadow: 0 4px 15px rgba(255, 66, 77, 0.3);
+  box-shadow: 0 4px 15px rgba(147, 186, 62, 0.3);
 }
 
 .patreon-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 66, 77, 0.4);
+  box-shadow: 0 8px 25px rgba(147, 186, 62, 0.4);
   color: white;
 }
 
@@ -2416,18 +2624,18 @@ const toggleMobileMenu = () => {
 }
 
 /* Guest avatar color variations */
-.guest-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-.guest-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
-.guest-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
-.guest-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
-.guest-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
-.guest-6 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
-.guest-7 { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
-.guest-8 { background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%); }
-.guest-9 { background: linear-gradient(135deg, #fad0c4 0%, #ffd1ff 100%); }
-.guest-10 { background: linear-gradient(135deg, #96deda 0%, #50c9c3 100%); }
-.guest-11 { background: linear-gradient(135deg, #ebbba7 0%, #cfc7f8 100%); }
-.guest-12 { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
+.guest-1 { background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%); }
+.guest-2 { background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%); }
+.guest-3 { background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%); }
+.guest-4 { background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary-color) 100%); }
+.guest-5 { background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); }
+.guest-6 { background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%); }
+.guest-7 { background: linear-gradient(135deg, var(--primary-dark) 0%, var(--text-primary) 100%); }
+.guest-8 { background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--text-primary) 100%); }
+.guest-9 { background: linear-gradient(135deg, var(--background-secondary) 0%, var(--primary-light) 100%); }
+.guest-10 { background: linear-gradient(135deg, var(--background-secondary) 0%, var(--secondary-light) 100%); }
+.guest-11 { background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-color) 100%); }
+.guest-12 { background: linear-gradient(135deg, var(--text-primary) 0%, var(--secondary-color) 100%); }
 
 .guest-initials {
   font-size: var(--font-size-lg);
@@ -2446,6 +2654,259 @@ const toggleMobileMenu = () => {
 
 .guest-item:hover .guest-name {
   color: var(--primary-color);
+}
+
+/* Mentorship Section */
+.mentorship-section {
+  padding: calc(var(--section-gap) / 3 * 1.25) 0;
+  background: var(--background-primary);
+}
+
+.mentorship-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mentorship-subtitle {
+  color: var(--text-secondary);
+  font-size: var(--font-size-lg);
+  max-width: 600px;
+  margin: -1.5rem auto 0;
+}
+
+.mentorship-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.mentor-card {
+  background: var(--background-secondary);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-light);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.mentor-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mentor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-large);
+  border-color: var(--primary-color);
+}
+
+.mentor-card:hover::before {
+  opacity: 1;
+}
+
+.mentor-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mentor-avatar {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.mentor-1 {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+}
+
+.mentor-2 {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
+}
+
+.mentor-initials {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.mentor-status {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background: white;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-color);
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+  animation: mentorPulse 2s infinite;
+}
+
+@keyframes mentorPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(0.9); }
+}
+
+.mentor-info {
+  flex: 1;
+}
+
+.mentor-name {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.mentor-role {
+  color: var(--primary-color);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+}
+
+.mentor-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mentor-description {
+  color: var(--text-secondary);
+  line-height: var(--line-height-normal);
+  font-size: var(--font-size-sm);
+}
+
+.mentor-specialties h4 {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.specialty-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.specialty-tag {
+  padding: 0.25rem 0.5rem;
+  background: var(--background-primary);
+  color: var(--primary-color);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  border-radius: 0.75rem;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.specialty-tag:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-1px);
+}
+
+.mentor-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0.75rem;
+  background: var(--background-primary);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.mentor-stats .stat-item {
+  text-align: center;
+}
+
+.mentor-stats .stat-number {
+  display: block;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-color);
+  line-height: 1;
+  margin-bottom: 0.125rem;
+}
+
+.mentor-stats .stat-label {
+  font-size: var(--font-size-xs);
+  color: var(--text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.mentor-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.mentor-btn.primary {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(147, 186, 62, 0.3);
+}
+
+.mentor-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(147, 186, 62, 0.4);
+  color: white;
+}
+
+.mentor-btn.secondary {
+  background: transparent;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.mentor-btn.secondary:hover {
+  background: var(--secondary-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+.mentorship-cta {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--background-accent);
+  border-radius: 0.75rem;
+  border: 2px dashed var(--border-color);
+}
+
+.mentorship-cta p {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
 }
 
 /* Söhbətgah Live Section */
@@ -2507,15 +2968,15 @@ const toggleMobileMenu = () => {
 }
 
 .live-1 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
 }
 
 .live-2 {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
 }
 
 .live-3 {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-color) 100%);
 }
 
 .play-overlay {
@@ -2834,29 +3295,29 @@ const toggleMobileMenu = () => {
   filter: brightness(1.1);
 }
 
-/* Background Colors - Spotify Style */
+/* Background Colors - Brand Style */
 .bg-orange {
-  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
 }
 
 .bg-dark {
-  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  background: linear-gradient(135deg, var(--text-primary) 0%, #222222 100%);
 }
 
 .bg-blue {
-  background: linear-gradient(135deg, #4285f4 0%, #1976d2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
 }
 
 .bg-yellow {
-  background: linear-gradient(135deg, #ffeb3b 0%, #ffc107 100%);
+  background: linear-gradient(135deg, var(--background-secondary) 0%, var(--primary-light) 100%);
 }
 
 .bg-gradient-1 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
 }
 
 .bg-gradient-2 {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 .tile-content {
@@ -2912,23 +3373,28 @@ const toggleMobileMenu = () => {
 
 /* Dark background specific styling */
 .bg-dark .playlist-title {
-  color: #ff6b35;
+  color: var(--primary-light);
 }
 
 .bg-yellow .playlist-title {
-  color: #1a1a1a;
+  color: var(--text-primary);
   text-shadow: none;
 }
 
 .bg-yellow .icon-bg {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(51, 51, 51, 0.1);
 }
 
 /* Tablet Responsive */
 @media (min-width: 768px) {
   .featured-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
+  }
+  
+  .recent-episodes-title {
+    font-size: var(--font-size-3xl);
+    margin-bottom: 2.5rem;
   }
   
   .featured-card {
@@ -2988,6 +3454,11 @@ const toggleMobileMenu = () => {
     max-width: 900px;
   }
   
+  .mentorship-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
   .live-videos {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -3016,9 +3487,14 @@ const toggleMobileMenu = () => {
 
 /* Desktop Responsive */
 @media (min-width: 1024px) {
+  .featured-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
   .featured-card {
-    grid-template-columns: 1fr auto;
-    text-align: left;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
   
   .about-features {
