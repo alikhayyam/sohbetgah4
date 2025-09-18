@@ -134,7 +134,7 @@ const toggleMobileMenu = () => {
                 <div class="stat-label">Dinləyici</div>
               </div>
               <div class="stat-item">
-                <div class="stat-number">25+</div>
+                <div class="stat-number">200+</div>
                 <div class="stat-label">Qonaq</div>
               </div>
               <div class="stat-item">
