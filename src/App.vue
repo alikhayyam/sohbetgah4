@@ -105,7 +105,11 @@ const toggleMobileMenu = () => {
               <div class="feature">
                 <div class="feature-icon">🎯</div>
                 <h4>Keyfiyyətli Məzmun</h4>
-                <p>Hər epizod diqqətlə hazırlanır və peşəkar şəkildə təqdim edilir</p>
+                <p>
+                  Oxuyuruq, dinləyirik və izləyirik ki, birlikdə inkişaf edək və
+                  dinlədikcə düşünəcəyiniz, öyrənəcəyiniz və zövq alacağınız bir
+                  məzmun ərsəyə gətirək.
+                </p>
               </div>
               <div class="feature">
                 <div class="feature-icon">🌟</div>
