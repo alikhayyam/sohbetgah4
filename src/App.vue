@@ -126,7 +126,7 @@ const toggleMobileMenu = () => {
           <div class="stats-content">
             <div class="stats-grid">
               <div class="stat-item">
-                <div class="stat-number">50+</div>
+                <div class="stat-number">350+</div>
                 <div class="stat-label">Epizod</div>
               </div>
               <div class="stat-item">
