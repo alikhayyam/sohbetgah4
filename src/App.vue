@@ -130,7 +130,7 @@ const toggleMobileMenu = () => {
                 <div class="stat-label">Epizod</div>
               </div>
               <div class="stat-item">
-                <div class="stat-number">15K+</div>
+                <div class="stat-number">100K+</div>
                 <div class="stat-label">Dinləyici</div>
               </div>
               <div class="stat-item">
