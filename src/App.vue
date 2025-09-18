@@ -137,10 +137,6 @@ const toggleMobileMenu = () => {
                 <div class="stat-number">200+</div>
                 <div class="stat-label">Qonaq</div>
               </div>
-              <div class="stat-item">
-                <div class="stat-number">8</div>
-                <div class="stat-label">Platform</div>
-              </div>
             </div>
             <div class="platforms">
               <h4>Mövcud Platformlar</h4>
