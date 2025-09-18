@@ -143,7 +143,6 @@ const toggleMobileMenu = () => {
               <div class="platform-list">
                 <span class="platform-tag">Spotify</span>
                 <span class="platform-tag">Apple Podcasts</span>
-                <span class="platform-tag">Google Podcasts</span>
                 <span class="platform-tag">YouTube</span>
               </div>
             </div>
