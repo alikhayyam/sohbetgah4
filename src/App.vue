@@ -97,11 +97,11 @@ const toggleMobileMenu = () => {
           <div class="featured-card featured-primary">
             <div class="featured-content">
               <div class="episode-meta">
-                <span class="host-name">Tural</span>
+                <span class="host-name">Münasibət</span>
                 <span class="duration">42 dəq</span>
               </div>
-              <h3 class="episode-title">Texnologiya və Gələcək</h3>
-              <p class="episode-description">AI və texnologiyanın gələcəyə təsiri haqqında dərin söhbət</p>
+              <h3 class="episode-title">Başımıza haranın daşını tökək?</h3>
+              <p class="episode-description">Hansı ölkədə yaşamaq istərdiniz?</p>
               <button class="play-btn">
                 <span class="play-icon">▶</span>
                 İndi Dinlə
@@ -109,7 +109,7 @@ const toggleMobileMenu = () => {
             </div>
             <div class="featured-visual">
               <div class="podcast-artwork tech-theme">
-                <div class="artwork-icon">🚀</div>
+                <div class="artwork-icon">🎤🎤</div>
               </div>
             </div>
           </div>
