@@ -101,11 +101,6 @@ const toggleMobileMenu = () => {
               dinləyicilərimizə yeni perspektivlər qazandırmağı və onların zamanını dəyərli etməyi
               hədəfləyirik.
             </p>
-            <p class="about-text">
-              Hər epizodumuzda ekspertlərlə bir araya gələrək, sizə həm praktik fayda verməyə çalışırıq.
-              Oxuyuruq, dinləyirik və izləyirik ki, birlikdə inkişaf edək və dinlədikcə düşünəcəyiniz,
-              öyrənəcəyiniz və zövq alacağınız bir məzmun ərsəyə gətirək.
-            </p>
             <div class="about-features">
               <div class="feature">
                 <div class="feature-icon">🎯</div>
