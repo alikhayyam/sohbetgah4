@@ -848,7 +848,7 @@ const toggleMobileMenu = () => {
 
         <div class="live-cta">
           <p>Bütün Live yayınlarımızı YouTube kanalımızda izləyə bilərsiniz</p>
-          <a href="#youtube-channel" class="btn btn-primary">
+          <a href="https://www.youtube.com/sohbatgah" class="btn btn-primary">
             <span class="btn-icon">📺</span>
             YouTube Kanalımız
           </a>
