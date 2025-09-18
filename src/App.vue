@@ -67,7 +67,7 @@ const toggleMobileMenu = () => {
           <div class="hero-text">
             <h1 class="hero-title">
               Söhbətgah Podkastına 
-              <span class="hero-highlight">Xoş Gəlmişsiniz</span>
+              <span class="hero-highlight">Xoş Gəlmisiz</span>
             </h1>
             <p class="hero-description">
               Tural və Əli hər həftə fərqli bir mövzu ətrafında qonaqları ilə fikir alış-verişi edir və təzadlı baxış bucaqları bu söhbətləri daha da dadlandırır.
