@@ -115,8 +115,8 @@ const toggleMobileMenu = () => {
                 <div class="feature-icon">🌟</div>
                 <h4>Ekspert Qonaqlar</h4>
                 <p>
-                  Hər epizodumuzda ekspertlərlə bir araya gələrək, sizə həm
-                  praktik fayda verməyə çalışırıq.
+                  Hər epizodumuzda ekspertlərlə bir araya gələrək, sizə praktiki
+                  fayda verməyə çalışırıq.
                 </p>
               </div>
             </div>
