@@ -96,12 +96,10 @@ const toggleMobileMenu = () => {
             <div class="section-tag">Haqqımızda</div>
             <h2 class="section-title">Söhbətgah Podkastı</h2>
             <p class="about-text">
-              2023-cü ildən başlayaraq Azərbaycan podkast sahəsində fəaliyyət göstərən Söhbətgah, 
-              müxtəlif mövzularda keyfiyyətli məzmun və maraqlı söhbətlər təqdim edir.
-            </p>
-            <p class="about-text">
-              Texnologiya, sənət, biznes, psixologiya və bir çox digər sahələrdən ekspertlərlə 
-              aparılan söhbətlərimizlə dinləyicilərimizə faydalı və əyləncəli vaxt keçirməyi hədəfləyirik.
+              2021-ci ildən etibarən Azərbaycan podkast məkanında özünəməxsus yer tutan "Söhbətgah",
+              dinləyicilərini intellektual və maraqlı söhbətlər dünyasına dəvət edir. Hər bir bölümümüzdə
+              dinləyicilərimizə yeni perspektivlər qazandırmağı və onların zamanını dəyərli etməyi
+              hədəfləyirik.
             </p>
             <div class="about-features">
               <div class="feature">
