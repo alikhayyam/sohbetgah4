@@ -141,9 +141,9 @@ const toggleMobileMenu = () => {
             <div class="platforms">
               <h4>Mövcud Platformlar</h4>
               <div class="platform-list">
+                <span class="platform-tag">YouTube</span>
                 <span class="platform-tag">Spotify</span>
                 <span class="platform-tag">Apple Podcasts</span>
-                <span class="platform-tag">YouTube</span>
               </div>
             </div>
           </div>
