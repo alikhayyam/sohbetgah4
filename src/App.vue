@@ -7,6 +7,16 @@ const mobileMenuOpen = ref(false)
 const toggleMobileMenu = () => {
   mobileMenuOpen.value = !mobileMenuOpen.value
 }
+
+const platformLinks = {
+  youtube: 'https://www.youtube.com/sohbatgah',
+  spotify: 'https://open.spotify.com/',
+  applePodcasts: 'https://podcasts.apple.com/'
+}
+
+const navigateTo = (url) => {
+  window.open(url, '_blank', 'noopener,noreferrer')
+}
 </script>
 
 <template>
@@ -141,9 +151,27 @@ const toggleMobileMenu = () => {
             <div class="platforms">
               <h4>Mövcud Platformlar</h4>
               <div class="platform-list">
-                <span class="platform-tag">YouTube</span>
-                <span class="platform-tag">Spotify</span>
-                <span class="platform-tag">Apple Podcasts</span>
+                <button
+                  type="button"
+                  class="platform-tag"
+                  @click="navigateTo(platformLinks.youtube)"
+                >
+                  YouTube
+                </button>
+                <button
+                  type="button"
+                  class="platform-tag"
+                  @click="navigateTo(platformLinks.spotify)"
+                >
+                  Spotify
+                </button>
+                <button
+                  type="button"
+                  class="platform-tag"
+                  @click="navigateTo(platformLinks.applePodcasts)"
+                >
+                  Apple Podcasts
+                </button>
               </div>
             </div>
           </div>
@@ -1849,6 +1877,10 @@ const toggleMobileMenu = () => {
   font-size: var(--font-size-xs);
   border-radius: 1rem;
   font-weight: var(--font-weight-medium);
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* Recent Episodes Section - Z Layout Bottom Horizontal */
