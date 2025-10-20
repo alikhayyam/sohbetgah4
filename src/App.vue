@@ -1824,7 +1824,7 @@ const navigateTo = (url) => {
 
 /* Stats Section - Z Layout Diagonal End */
 .stats-content {
-  background: var(--background-accent);
+  background: linear-gradient(135deg, #fce1ec 0%, #e8f4fb 50%, #fef6e4 100%);
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: var(--shadow-medium);
