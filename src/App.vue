@@ -134,65 +134,42 @@ const navigateTo = (url) => {
 
           <!-- Stats Section - Z Layout Diagonal End (Right) -->
           <div class="stats-content">
-            <div class="stats-header">
-              <span class="stats-eyebrow">Rəqəmlərlə</span>
-              <h3 class="stats-title">Söhbətgahın təsiri</h3>
-              <p class="stats-description">
-                Podkastımız hər epizodda daha çox dinləyiciyə çatır və peşəkar qonaqlarla
-                zənginləşir.
-              </p>
-            </div>
             <div class="stats-grid">
               <div class="stat-item">
-                <div class="stat-icon" aria-hidden="true">🎙️</div>
-                <div>
-                  <div class="stat-number">350+</div>
-                  <div class="stat-label">Epizod</div>
-                </div>
+                <div class="stat-number">350+</div>
+                <div class="stat-label">Epizod</div>
               </div>
               <div class="stat-item">
-                <div class="stat-icon" aria-hidden="true">👂</div>
-                <div>
-                  <div class="stat-number">100K+</div>
-                  <div class="stat-label">Dinləyici</div>
-                </div>
+                <div class="stat-number">100K+</div>
+                <div class="stat-label">Dinləyici</div>
               </div>
               <div class="stat-item">
-                <div class="stat-icon" aria-hidden="true">🤝</div>
-                <div>
-                  <div class="stat-number">200+</div>
-                  <div class="stat-label">Qonaq</div>
-                </div>
+                <div class="stat-number">200+</div>
+                <div class="stat-label">Qonaq</div>
               </div>
             </div>
             <div class="platforms">
-              <h4>Mövcud platformalar</h4>
-              <p class="platforms-subtitle">
-                Sevdiyiniz tətbiqdən bir kliklə dinləməyə başlayın.
-              </p>
+              <h4>Mövcud Platformlar</h4>
               <div class="platform-list">
                 <button
                   type="button"
-                  class="platform-chip"
+                  class="platform-tag"
                   @click="navigateTo(platformLinks.youtube)"
                 >
-                  <span class="platform-icon" aria-hidden="true">▶</span>
                   YouTube
                 </button>
                 <button
                   type="button"
-                  class="platform-chip"
+                  class="platform-tag"
                   @click="navigateTo(platformLinks.spotify)"
                 >
-                  <span class="platform-icon" aria-hidden="true">♪</span>
                   Spotify
                 </button>
                 <button
                   type="button"
-                  class="platform-chip"
+                  class="platform-tag"
                   @click="navigateTo(platformLinks.applePodcasts)"
                 >
-                  <span class="platform-icon" aria-hidden="true"></span>
                   Apple Podcasts
                 </button>
               </div>
@@ -1847,91 +1824,33 @@ const navigateTo = (url) => {
 
 /* Stats Section - Z Layout Diagonal End */
 .stats-content {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(135deg, rgba(87, 94, 240, 0.12), rgba(87, 94, 240, 0.04));
-  padding: 2.5rem;
-  border-radius: 1.5rem;
+  background: var(--background-accent);
+  padding: 2rem;
+  border-radius: 1rem;
   box-shadow: var(--shadow-medium);
-  display: grid;
-  gap: 2.5rem;
-}
-
-.stats-content::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at top right, rgba(87, 94, 240, 0.18), transparent 55%);
-  pointer-events: none;
-}
-
-.stats-header {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  gap: 0.75rem;
-}
-
-.stats-eyebrow {
-  font-size: var(--font-size-xs);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--primary-color);
-  font-weight: var(--font-weight-bold);
-}
-
-.stats-title {
-  font-size: var(--font-size-2xl);
-  font-weight: var(--font-weight-bold);
-  color: var(--text-primary);
-}
-
-.stats-description {
-  max-width: 28rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
 }
 
 .stats-grid {
-  position: relative;
-  z-index: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .stat-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.25rem 1.5rem;
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.6);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(87, 94, 240, 0.15);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.stat-item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-medium);
-}
-
-.stat-icon {
-  display: grid;
-  place-items: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.9rem;
-  background: rgba(87, 94, 240, 0.12);
-  font-size: 1.35rem;
+  text-align: center;
+  padding: 1rem;
+  background: var(--background-primary);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-light);
 }
 
 .stat-number {
-  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-size: var(--font-size-3xl);
   font-weight: var(--font-weight-bold);
-  color: var(--text-primary);
-  line-height: 1.1;
+  color: var(--primary-color);
+  line-height: 1;
+  margin-bottom: 0.5rem;
 }
 
 .stat-label {
@@ -1940,61 +1859,28 @@ const navigateTo = (url) => {
   font-weight: var(--font-weight-medium);
 }
 
-.platforms {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  gap: 1rem;
-}
-
 .platforms h4 {
-  margin: 0;
-  font-size: var(--font-size-base);
+  margin-bottom: 1rem;
   color: var(--text-primary);
-}
-
-.platforms-subtitle {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: var(--font-size-sm);
 }
 
 .platform-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.platform-chip {
-  display: inline-flex;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
   gap: 0.5rem;
-  padding: 0.55rem 1rem;
-  border-radius: 999px;
-  border: 1px solid rgba(87, 94, 240, 0.2);
-  background: rgba(255, 255, 255, 0.85);
-  color: var(--text-primary);
-  font-size: var(--font-size-sm);
+}
+
+.platform-tag {
+  padding: 0.25rem 0.75rem;
+  background: var(--primary-color);
+  color: white;
+  font-size: var(--font-size-xs);
+  border-radius: 1rem;
   font-weight: var(--font-weight-medium);
+  border: none;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.platform-chip:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-light);
-  border-color: rgba(87, 94, 240, 0.35);
-}
-
-.platform-icon {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 999px;
-  background: rgba(87, 94, 240, 0.15);
-  font-size: 0.8rem;
 }
 
 /* Recent Episodes Section - Z Layout Bottom Horizontal */
@@ -3496,7 +3382,7 @@ const navigateTo = (url) => {
   }
   
   .stats-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
   
   .episodes-grid {
@@ -3577,7 +3463,7 @@ const navigateTo = (url) => {
   }
   
   .stats-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(4, 1fr);
   }
   
   .episodes-grid {
