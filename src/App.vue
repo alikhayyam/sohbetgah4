@@ -1653,13 +1653,13 @@ const navigateTo = (url) => {
 /* Akart Sponsor Section - Minimalist Banner */
 .akart-sponsor {
   padding: 3rem 0;
-  background: linear-gradient(135deg, #5b3cc4 0%, #9d4edd 100%);
+  background: var(--background-secondary);
 }
 
 .sponsor-banner {
   max-width: 800px;
   margin: 0 auto;
-  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--secondary-dark) 100%);
+  background: linear-gradient(135deg, #6d28d9 0%, #ffffff 100%);
   border-radius: 1rem;
   padding: 2rem;
   position: relative;
