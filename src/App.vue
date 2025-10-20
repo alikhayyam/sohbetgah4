@@ -185,7 +185,7 @@ const navigateTo = (url) => {
         <div class="sponsor-banner">
           <div class="sponsor-content">
             <div class="sponsor-badge">
-              <span class="badge-text">Sponsor</span>
+              <span class="badge-text">Əsas Dəstəkçimiz</span>
             </div>
             <div class="sponsor-info">
               <div class="sponsor-logo">
@@ -194,9 +194,9 @@ const navigateTo = (url) => {
                 </div>
               </div>
               <div class="sponsor-message">
-                <h3 class="sponsor-title">Akart ilə Xüsusi Endirim</h3>
+                <h3 class="sponsor-title">akart  Hər yerdə</h3>
                 <p class="sponsor-description">
-                  Söhbətgah dinləyiciləri üçün <strong>%15 endirim</strong> - kod: SOHBETGAH
+                  İnnovativ, sürətli və təhlükəsiz! akart ilə ödənişlərin rahatlığını kəşf et!
                 </p>
               </div>
             </div>
@@ -1653,7 +1653,7 @@ const navigateTo = (url) => {
 /* Akart Sponsor Section - Minimalist Banner */
 .akart-sponsor {
   padding: 3rem 0;
-  background: var(--background-secondary);
+  background: linear-gradient(135deg, #5b3cc4 0%, #9d4edd 100%);
 }
 
 .sponsor-banner {
